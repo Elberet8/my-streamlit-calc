@@ -12,7 +12,8 @@ jobs:
       - name: Push to HF
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-   run: git push -f https://8-vhs:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/8-vhs/my-vhs-calc main:main
+ run: git push -f https://Elberet:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Elberet/my-vhs-calc main:main
+
 
 
 
